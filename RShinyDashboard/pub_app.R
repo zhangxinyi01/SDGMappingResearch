@@ -118,7 +118,7 @@ Right now, the results are from Scopus SDG Search Query. We are working on updat
                                                                                          label = "Choose USC School",
                                                                                          selected = "Dornsife College of Letters, Arts and Sciences",
                                                                                          choices = unique(pub_auth$Division))),
-                                                h3("(Top 30) Departments of SDG Publications"),
+                                                h3("SDG Publications by Departments"),
                                                 fluidRow(column(12, plotOutput(outputId = "pubs_to_bar"))),
                                                 h3("SDG-Related Research"),
                                                 fluidRow(column(12, plotOutput("pubs_to_pie")))
